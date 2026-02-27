@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Quake II on Embedded Linux - KADEN BERGER</title>
+		<title>Adaptive Trail Navigation Smart Glasses - KADEN BERGER</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -104,7 +104,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 	function initFlyouts(){
 		initPublishedFlyoutMenus(
 			[{"id":"851020353189731082","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"261973845465205324","title":"Projects","url":"projects.html","target":"","nav_menu":false,"nonclickable":false},{"id":"503676006511206694","title":"Resume","url":"resume.html","target":"","nav_menu":false,"nonclickable":false}],
-			"429855859471093721",
+			"712185232774085973",
 			'',
 			'active',
 			false,
@@ -117,7 +117,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		
 		
 	</head>
-	<body class="no-header-page  wsite-page-quake-ii-on-embedded-linux wsite-theme-light"><div class="wrapper">
+	<body class="no-header-page  wsite-page-adaptive-trail-navigation-smart-glasses wsite-theme-light"><div class="wrapper">
     <div class="cento-header">
       <div class="container">
         <div class="logo"><span class="wsite-logo">
@@ -170,11 +170,11 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
     <div class="content-wrap">
       <div id="wsite-content" class="wsite-elements wsite-not-footer">
 	<div class="wsite-section-wrap">
-	<div class="wsite-section wsite-body-section wsite-background-10"  >
+	<div class="wsite-section wsite-body-section wsite-background-12"  >
 		<div class="wsite-section-content">
         <div class="container">
 			<div class="wsite-section-elements">
-				<h2 class="wsite-content-title" style="text-align:center;"><font size="6"><strong>Quake II on Embedded Linux</strong></font></h2>
+				<h2 class="wsite-content-title" style="text-align:center;"><font size="6"><strong>Adaptive Trail Navigation Smart Glasses</strong></font><br></h2>
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
 	<table class="wsite-multicol-table">
@@ -186,7 +186,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <div class="wsite-spacer" style="height:41px;"></div>
 
-<div class="paragraph"><font size="4">Another project I worked on during my time as an undergraduate was porting and running Quake II on an embedded Linux system. I started this project with a group during Spring of 2025 for my embedded systems design class, CprE 488, at Iowa State University as our final project. The goal for this project was to experiment with PetaLinux, an embedded Linux distribution, and see how well we could get Quake II to run on our Xilinx Zynq-7000 platform, which would require a lot of work on both the hardware and software sides of the system.</font></div>
+<div class="paragraph"><font size="4">Individuals with visual impairments often encounter significant challenges when safely navigating their environments. While existing mobility aids such as white canes and guide dogs provide valuable assistance, they have limitations in detecting elevated obstacles and conveying detailed spatial information. To address these gaps, my senior design team at Iowa State University is developing Adaptive Trail Navigation Smart Glasses with BAE systems and Adaptive Adventures that leverage sensor technologies to improve spatial awareness and promote independent mobility.&nbsp;<br /></font><br></div>
 
 
 					
@@ -196,7 +196,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/1/4/8/9/148994671/image_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+<img src="uploads/1/4/8/9/148994671/2026-02-26-21-28-30_orig.png" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
@@ -222,10 +222,12 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:right">
 <a>
-<img src="uploads/1/4/8/9/148994671/img-0006_orig.jpg" alt="Picture" style="width:auto;max-width:100%" />
+<img src="uploads/1/4/8/9/148994671/2026-02-26-21-29-03_orig.png" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
 
 <div class="wsite-spacer" style="height:64px;"></div>
 
@@ -235,9 +237,9 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 					
 						
 
-<div class="wsite-spacer" style="height:59px;"></div>
+<div class="wsite-spacer" style="height:117px;"></div>
 
-<div class="paragraph"><font size="4">While my teammates focused on the hardware acceleration and cross compilation parts of the project, my main contribution was getting a working framebuffer and graphics libraries onto our distribution so that we could get video output and be able to render the program. I started this stage by splicing together an existing VGA output framework that we had developed in a previous lab with the AXI VDMA core on the FPGA. This gave us the hardware path needed for video, but we still needed a way for Quake II to actually write to the screen. In order to make this possible I explored the different graphics libraries and framebuffer devices we could utilize on PetaLinux and eventually landed on DirectFB which would also allow us to support SDL2 for rendering. Setting this part up required a deep dive into the Yocto build configuration to include the right packages and dependencies, but after digging through documentation and experimenting for a few hours, I figured it out.</font></div>
+<div class="paragraph"><font size="4">My role in this project so far is on the embedded systems and 3D design sides of this project. Because of my previous experience working with designing and working on embedded systems in classes, as well as my personal focus on it for my career, a lot of my personal contributions to our work have dealt with I2C programming in python and c++. This has been an amazing learning experience for me because it has allowed me to apply the skills I've learned in classes in a more professional scenario where I'm working with a team to design a prototype from the ground up.&nbsp;</font><br></div>
 
 
 					
@@ -256,7 +258,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <div class="wsite-spacer" style="height:54px;"></div>
 
-<div class="paragraph"><font size="4">Overall, this project was my first real experience working with Linux, and it turned out to be an excellent opportunity to take what I had been learning in my classes and apply it to a much larger and complex system. On top of gaining valuable experience with the small details of embedded systems and Linux, I also learned how to troubleshoot issues and do deep research through data sheets to deliver a final product. While the final product was just a fun demonstration of an old video game running on unusual hardware, the process gave me hands-on skills that i can apply directly to real-world embedded systems projects in the future.</font></div>
+<div class="paragraph"><font size="4">As for the 3D design part of this project, while not a new concept to me, this has been the first time that I've actually developed with and used CAD for a serious project. This has been a really exciting experience for me since I've been 3D printing stuff for years, but have never really worked with a serious CAD program like OnShape. While my design skills are often limited and I need a lot of help from resources and tutorials while doing it, I feel like this has been a valuable skill that I've been able to build during our project so far. While our prototype is not complete yet this semester. I hope to work more on these skills throughout the year and deliver a finished product that I'm proud of!</font></div>
 
 
 					
@@ -268,7 +270,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
 <a>
-<img src="uploads/1/4/8/9/148994671/published/img-0526.png?1758499565" alt="Picture" style="width:auto;max-width:100%" />
+<img src="uploads/1/4/8/9/148994671/2026-02-26-21-28-45_orig.png" alt="Picture" style="width:auto;max-width:100%" />
 </a>
 <div style="display:block;font-size:90%"></div>
 </div></div>
